@@ -283,3 +283,16 @@ console.log('******************')
  for (teacher in school.teachers) {
    console.log(school.teachers[teacher].name)
  }
+
+
+ function displayAllStudents() {
+    console.log("**** ALL STUDENTS ****")
+    for (student in school.students) {
+       console.log("name: ", school.students[student].name)
+       console.log("age: ", school.students[student].age)
+       console.log("subjects: ", school.students[student].subjects)
+       console.log("*****")
+    }
+ }
+
+ displayAllStudents()
